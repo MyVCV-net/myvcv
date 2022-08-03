@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "225793427847",
+    "project_id": "myvcv-c7726",
+    "storage_bucket": "myvcv-c7726.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225793427847:android:d1b80291b5107c3a382b22",
+        "android_client_info": {
+          "package_name": "net.myvcv.myvcv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225793427847-utulfkqkpn3hp793tie5tn57kql911aq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.myvcv.myvcv",
+            "certificate_hash": "c6a4c5414a5126bfd377b5a387340a3c5d96fbff"
+          }
+        },
+        {
+          "client_id": "225793427847-p6rfrelh70hfa18p4s9neaqpm9ki0knp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLhq9qitUEZ-dfal2jV2hiykTmLdjRu3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225793427847-p6rfrelh70hfa18p4s9neaqpm9ki0knp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "225793427847-fcr8lte9ge3cmbskcmnnmm3q2qo81kto.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "net.myvcv.myvcv"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

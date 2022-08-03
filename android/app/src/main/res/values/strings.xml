@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyVCV</string>
+    <string name="facebook_app_id">1034886417278865</string>
+    <string name="fb_login_protocol_scheme">fb1034886417278865</string>
+    <string name="facebook_client_token">090175921e0a174dd7f5ee27df23618d</string>
+</resources>

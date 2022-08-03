@@ -1,0 +1,13 @@
+export 'jobs/job_model.dart';
+export 'home/home_model.dart';
+export 'aboutus/aboutus_model.dart';
+export 'auth/user_model.dart';
+export 'notification/notification_model.dart';
+export 'mynetwork/mynetwork_model.dart';
+export 'general/data_model.dart';
+export 'ads/ads_model.dart';
+export 'ads/form_model.dart';
+export 'chat/user_chat_model.dart';
+export 'chat/message_model.dart';
+export 'recommandation/recommandation_model.dart';
+export 'search/search_model.dart';
