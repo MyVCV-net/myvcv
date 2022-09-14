@@ -317,21 +317,22 @@ class _ModalFitState extends State<ModalFit> {
           Padding(
             padding: const EdgeInsets.all(18.0),
             child: Row(
-              children: [
-                GroupButton(
-                  isRadio: true,
-                  spacing: 10,
-                  buttons: const ['Recruiters', 'Job Seeker'],
-                  selectedColor: const Color(0xFFD0AB37),
-                  borderRadius: BorderRadius.circular(30),
-                  onSelected: (i, selected) {
-                    setState(() {
-                      selcectedId = i;
-                    });
-                  },
+                //TODO::Update GroupButton
+                // children: [
+                //   // GroupButton(
+                //   //   isRadio: true,
+                //   //   spacing: 10,
+                //   //   buttons: const ['Recruiters', 'Job Seeker'],
+                //   //   selectedColor: const Color(0xFFD0AB37),
+                //   //   borderRadius: BorderRadius.circular(30),
+                //   //   onSelected: (i, selected) {
+                //   //     setState(() {
+                //   //       selcectedId = i;
+                //   //     });
+                //   //   },
+                //   // ),
+                // ],
                 ),
-              ],
-            ),
           ),
           selcectedId == 0
               ? Padding(

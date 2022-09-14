@@ -37,58 +37,56 @@ dependencies:
   cupertino_icons: ^1.0.3
   flutter_signin_button: ^2.0.0
   dot_navigation_bar: ^1.0.1+3
-  video_player: ^2.2.19
+  video_player: ^2.4.7
   provider: ^6.0.1
-  visibility_detector: ^0.2.0
+  visibility_detector: ^0.3.3
   flutter_staggered_grid_view: ^0.6.0
   cached_network_image: ^3.1.0
   modal_bottom_sheet: ^2.0.0
-  group_button: ^4.1.0
+  group_button: ^5.2.1
   firebase_auth: ^3.1.1
   firebase_core: ^1.6.0
   firebase_analytics: ^9.0.4
   cloud_firestore: ^3.1.5
   google_sign_in: ^5.2.3
-  sign_in_with_apple: ^3.2.0
+  sign_in_with_apple: ^4.1.0
   crypto: ^3.0.1
   email_validator: ^2.0.1
   flutter_facebook_auth: ^4.0.1
   equatable: ^2.0.3
-  material_design_icons_flutter: 5.0.6595
+  material_design_icons_flutter: ^5.0.6996
   flutter_cache_manager: ^3.1.2
-  connectivity_plus: ^2.0.2
+  connectivity_plus: ^2.3.6+1
   fluttertoast: ^8.0.8
-  chewie:
-    path: ./packages/chewie-master/
+  chewie: ^1.3.5
   get: ^4.6.1
   get_storage: ^2.0.3
   shared_preferences: ^2.0.11
   url_launcher: ^6.0.17
-  file_picker: ^4.3.0
+  file_picker: ^5.0.1
   firebase_storage: ^10.2.4
   image_picker: ^0.8.4+4
-  video_thumbnail: ^0.4.3
+  video_thumbnail: ^0.5.3
   timeago: ^3.1.0
-  flutter_rounded_date_picker: ^2.0.2
+  flutter_rounded_date_picker: ^3.0.2
   country_code_picker: ^2.0.2
   currency_picker: ^2.0.3
   flutter_easyloading: ^3.0.3
-  firebase_messaging: ^11.2.4
+  firebase_messaging: ^13.0.1
   rate_my_app: ^1.1.1+1
   language_picker: ^0.4.1
-  flutterfire_ui: ^0.4.1+2
-
+  xml: ^6.1.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_launcher_icons: ^0.9.2
+  flutter_launcher_icons: ^0.10.0
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^1.0.4
-  flutter_native_splash: ^1.2.4
+  flutter_lints: ^2.0.1
+  flutter_native_splash: ^2.2.9
 flutter_native_splash:
   color: "#ffffff"
   image: assets/LunchLogo.png
