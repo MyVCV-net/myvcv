@@ -61,11 +61,7 @@ class _UserProfileState extends State<UserProfile> {
       createdAt: '');
   NotificationModel notificationModel = NotificationModel(
       imageUrl: '', subtitle: '', time: '', userId: '', username: '');
-  UserChatModel userChatModel = UserChatModel(
-    userId: '',
-    userImageUrl: '',
-    username: '',
-  );
+
   TextEditingController recContoller = TextEditingController();
   @override
   void initState() {
@@ -106,8 +102,7 @@ class _UserProfileState extends State<UserProfile> {
         ads: await adsModel.adsModelToMap(data["ads"] as List),
         notification: await notificationModel
             .notificationModelToMap(data["notification"] as List),
-        chatUsers:
-            await userChatModel.userChatModelToMap(data["chatUsers"] as List),
+ 
       );
       setState(() {});
     });

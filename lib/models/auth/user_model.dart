@@ -1,3 +1,5 @@
+// This class to store app user data from firebase and convert data to json and from json
+
 import 'dart:convert';
 import 'package:equatable/equatable.dart';
 import 'package:myvcv/models/models.dart';
@@ -23,7 +25,6 @@ class UserModel extends Equatable {
   final List<DataModel> contactInfoData;
   final List<AdsModel> ads;
   final List<NotificationModel> notification;
-  final List<UserChatModel> chatUsers;
 
   const UserModel({
     required this.id,
@@ -46,7 +47,6 @@ class UserModel extends Equatable {
     required this.contactInfoData,
     required this.ads,
     required this.notification,
-    required this.chatUsers,
   });
   UserModel copyWith({
     String? id,
@@ -69,7 +69,6 @@ class UserModel extends Equatable {
     List<DataModel>? contactInfoData,
     List<AdsModel>? ads,
     List<NotificationModel>? notification,
-    List<UserChatModel>? chatUsers,
   }) {
     return UserModel(
       id: id ?? this.id,
@@ -94,7 +93,6 @@ class UserModel extends Equatable {
       contactInfoData: contactInfoData ?? this.contactInfoData,
       ads: ads ?? this.ads,
       notification: notification ?? this.notification,
-      chatUsers: chatUsers ?? this.chatUsers,
     );
   }
 
@@ -120,7 +118,6 @@ class UserModel extends Equatable {
         contactInfoData,
         ads,
         notification,
-        chatUsers,
       ];
 
   Map<String, dynamic> toMap() {
@@ -147,7 +144,6 @@ class UserModel extends Equatable {
       'contactInfoData': contactInfoData.map((x) => x.toMap()).toList(),
       'ads': ads.map((x) => x.toMap()).toList(),
       'notification': notification.map((x) => x.toMap()).toList(),
-      'chatUsers': chatUsers.map((x) => x.toMap()).toList(),
     };
   }
 
@@ -179,8 +175,6 @@ class UserModel extends Equatable {
       notification: List<NotificationModel>.from(
         map['notification']?.map((x) => NotificationModel.fromMap(x)),
       ),
-      chatUsers: List<UserChatModel>.from(
-          map['chatUsers']?.map((x) => UserChatModel.fromMap(x))),
     );
   }
 

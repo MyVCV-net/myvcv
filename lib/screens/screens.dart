@@ -4,8 +4,6 @@ export 'auth/job_seeker_page.dart';
 export 'auth/login_page.dart';
 export 'auth/recruiters_page.dart';
 export 'auth/sign_up_page.dart';
-export 'chat/chat_page.dart';
-export 'chat/messages_page.dart';
 export 'home/home_page.dart';
 export 'jobs/jobs_page.dart';
 export 'landing/about_us_page.dart';

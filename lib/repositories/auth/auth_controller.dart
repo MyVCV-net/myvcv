@@ -121,10 +121,6 @@ class AuthController extends GetxController with StateMixin {
                     newData.containsKey('notification')
                         ? newData["notification"] as List
                         : []),
-                chatUsers: await userChatModel.userChatModelToMap(
-                    newData.containsKey('chatUsers')
-                        ? newData["chatUsers"] as List
-                        : []),
               );
               GetStorage().write('user', user[0].toJson());
               update();
@@ -170,11 +166,7 @@ class AuthController extends GetxController with StateMixin {
       createdAt: '');
   NotificationModel notificationModel = NotificationModel(
       imageUrl: '', subtitle: '', time: '', userId: '', username: '');
-  UserChatModel userChatModel = UserChatModel(
-    userId: '',
-    userImageUrl: '',
-    username: '',
-  );
+
   //Google Variable
   GoogleSignInAccount? googleUser;
   GoogleSignInAuthentication? googleAuth;
@@ -363,7 +355,6 @@ class AuthController extends GetxController with StateMixin {
           contactInfoData: const [],
           ads: const [],
           notification: const [],
-          chatUsers: const [],
         ));
         isFromSource.value = true;
         return "new";
@@ -429,7 +420,6 @@ class AuthController extends GetxController with StateMixin {
             contactInfoData: const [],
             ads: const [],
             notification: const [],
-            chatUsers: const [],
           ));
           update();
           isFromSource.value = true;
@@ -515,8 +505,6 @@ class AuthController extends GetxController with StateMixin {
                 data.containsKey('notification')
                     ? data["notification"] as List
                     : []),
-            chatUsers: await userChatModel.userChatModelToMap(
-                data.containsKey('chatUsers') ? data["chatUsers"] as List : []),
           ),
         );
         GetStorage().write('user', user[0].toJson());
@@ -587,7 +575,6 @@ class AuthController extends GetxController with StateMixin {
         contactInfoData: const [],
         ads: const [],
         notification: const [],
-        chatUsers: const [],
       ));
       GetStorage().write('user', user[0].toJson());
       return true;

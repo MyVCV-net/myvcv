@@ -1,3 +1,5 @@
+// This class to store app recruiter form data from firebase and convert data to json and from json
+
 import 'dart:convert';
 
 class FormModel {

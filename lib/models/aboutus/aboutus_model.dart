@@ -1,3 +1,4 @@
+// This class to store app description from firebase and convert data to json and from json
 import 'dart:convert';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:equatable/equatable.dart';

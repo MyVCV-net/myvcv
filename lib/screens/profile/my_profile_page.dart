@@ -47,7 +47,6 @@ class _MyProfilePageState extends State<MyProfilePage> {
   Widget build(BuildContext context) {
     final AuthController authController = Get.put(AuthController());
     final FirebaseController firebaseController = Get.put(FirebaseController());
-    print(authController.user[0].chatUsers);
     return Scaffold(
       appBar: CustomAppBar(
         title: authController.username,

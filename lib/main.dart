@@ -61,7 +61,6 @@ void main() async {
                     ? HomePage()
                     : LoginPage()
                 : AboutUsPage();
-            // return AboutUsPage();
           }),
       GetPage(name: LoginPage.routeName, page: () => LoginPage()),
       GetPage(name: AdsPage.routeName, page: () => AdsPage()),
@@ -72,8 +71,6 @@ void main() async {
       GetPage(name: LoginPage.routeName, page: () => LoginPage()),
       GetPage(name: RecruitersPage.routeName, page: () => RecruitersPage()),
       GetPage(name: SignUpPage.routeName, page: () => SignUpPage()),
-      GetPage(name: ChatPage.routeName, page: () => ChatPage()),
-      GetPage(name: MessagesPage.routeName, page: () => MessagesPage()),
       GetPage(name: JobsPage.routeName, page: () => JobsPage()),
       GetPage(name: AboutUsPage.routeName, page: () => AboutUsPage()),
       GetPage(name: ForgetPassword.routeName, page: () => ForgetPassword()),

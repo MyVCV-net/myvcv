@@ -1,5 +1,6 @@
-import 'dart:convert';
+// This class to store app ads data from firebase and convert data to json and from json
 
+import 'dart:convert';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/services.dart';
